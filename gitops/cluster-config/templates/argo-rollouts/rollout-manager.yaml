@@ -4,7 +4,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: RolloutManager
 metadata:
   name: argo-rollout
-  namespace: argo-rollouts
+  namespace: openshift-gitops
 spec:
   extraCommandArgs:
     - '--namespaced=false'
